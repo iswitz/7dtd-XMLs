@@ -418,7 +418,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="bulletCasing" count="1" craft_area="forge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_brass" count="1"/>
+	<ingredient name="unit_brass" count="2"/>
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 
