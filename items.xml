@@ -6814,10 +6814,10 @@ Mesh files no longer used:
 		<property name="Delay" value="1.0"/>
 		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
-		<property name="Gain_food" value="5"/>
+		<property name="Gain_food" value="15"/>
 		<property name="Buff" value="eatFood_3_Trigger"/>
 		<property name="Gain_water" value="0"/>
-		<property name="Gain_wellness" value="0.4"/>
+		<property name="Gain_wellness" value="6"/>
 		<property name="Sound_start" value="player_eating"/>
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 	</property>

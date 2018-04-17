@@ -177,6 +177,8 @@ betterLeadThanDeadDesc,progression,Perk,GrChanged,This is my rifle. There are ma
 sexualTyranosaurus,progression,Perk,GrChanged,Sexual Tyrannosaurus,Tyrannosaure en rut,Wie ein Wildes Tier,,Tiranosaurio sexual
 perkPistolsDesc,progression,Perk,GrChanged,Build Pistols,,,,
 perkPistols,progression,Perk,KgNone,Build Pistols.,,,,
+perkRiflesDesc,progression,Perk,GrChanged,Build Rifles,,,,
+perkRifles,progression,Perk,KgNone,Build Rifles.,,,,
 perkShotgunsDesc,progression,Perk,GrChanged,Build Shotguns,,,,
 perkShotguns,progression,Perk,KgNone,Build Shotguns.,,,,
 pummelPete,progression,Skill,GrChanged,Pummel Pete,Rosser Pete,Haudrauf,,Pete apalea

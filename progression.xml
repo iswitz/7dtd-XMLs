@@ -390,7 +390,7 @@
 			<multiply skill_level="70,100" value="1.23,1.28"/>
 		</effect>
 	</action_skill>
-	<perk name="perkPistols" icon="pistol" description_key="perkPistolsDesc" title_key="Pistols" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+	<perk name="perkPistols" icon="pistol" description_key="perkPistolsDesc" title_key="Craft Pistols" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="1"/>
 		<recipe name="gunPistol" unlock_level="1"/>
 		<recipe name="partsPistol_barrel" unlock_level="1"/>
@@ -402,6 +402,29 @@
 		<recipe name="parts44Magnum_cylinder" unlock_level="1"/>
 		<recipe name="parts44Magnum_parts" unlock_level="1"/>
 		<recipe name="parts44Magnum_frame" unlock_level="1"/>
+	</perk>
+	<perk name="perkRifles" icon="Rifles" description_key="perkRiflesDesc" title_key="Craft Rifles" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
+		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="1"/>
+		<recipe name="gunMP5" unlock_level="1"/>
+		<recipe name="partsMP5_barrel" unlock_level="1"/>
+		<recipe name="partsMP5_stock" unlock_level="1"/>
+		<recipe name="partsMP5_receiver" unlock_level="1"/>
+		<recipe name="partsMP5_parts" unlock_level="1"/>
+		<recipe name="gunHuntingRifle" unlock_level="1"/>
+		<recipe name="partsHuntingRifle_barrel" unlock_level="1"/>
+		<recipe name="partsHuntingRifle_stock" unlock_level="1"/>
+		<recipe name="partsHuntingRifle_receiver" unlock_level="1"/>
+		<recipe name="partsHuntingRifle_parts" unlock_level="1"/>
+		<recipe name="gunAK47" unlock_level="1"/>
+		<recipe name="partsAK47_barrel" unlock_level="1"/>
+		<recipe name="partsAK47_stock" unlock_level="1"/>
+		<recipe name="partsAK47_receiver" unlock_level="1"/>
+		<recipe name="partsAK47_parts" unlock_level="1"/>
+		<recipe name="gunSniperRifle" unlock_level="1"/>
+		<recipe name="partsSniperRifle_barrel" unlock_level="1"/>
+		<recipe name="partsSniperRifle_stock" unlock_level="1"/>
+		<recipe name="partsSniperRifle_receiver" unlock_level="1"/>
+		<recipe name="partsSniperRifle_parts" unlock_level="1"/>
 	</perk>
 	<perk name="The Outlaw" icon="pistol" description_key="theOutlawDesc" title_key="theOutlaw" max_level="5" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="firearms">
 		<requirement perk_level="1" required_skill_name="Pistols" required_skill_level="1"/>
@@ -441,7 +464,7 @@
 			
 		</effect>
 	</action_skill>
-	<perk name="perkShotguns" icon="shotgun" description_key="perkShotgunsDesc" title_key="Shotguns" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+	<perk name="perkShotguns" icon="shotgun" description_key="perkShotgunsDesc" title_key="Craft Shotguns" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 		<requirement skill_level="1" required_skill_name="craftSkillGuns" required_skill_level="1"/>
 		<recipe name="gunPumpShotgun" unlock_level="1"/>
 		<recipe name="gunSawedOffPumpShotgun" unlock_level="1"/>
@@ -993,27 +1016,27 @@
 	</perk>
 
 	<perk name="paintDecorations" icon="paint_brush" description_key="paintGroupDesc" title_key="paintMagazineDecorations" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
-		<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="1"/>
 		<material_group name="txGroupDecoration" unlock_level="1"/>
 	</perk>
 	<perk name="paintFaux" icon="paint_brush" description_key="paintGroupDesc" title_key="paintMagazineFaux" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
-		<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="1"/>
 		<material_group name="txGroupFaux" unlock_level="1"/>
 	</perk>
 	<perk name="paintMasonry" icon="paint_brush" description_key="paintGroupDesc" title_key="paintMagazineMasonry" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
-		<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="1"/>
 		<material_group name="txGroupMasonry" unlock_level="1"/>
 	</perk>
 	<perk name="paintMetal" icon="paint_brush" description_key="paintGroupDesc" title_key="paintMagazineMetal" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
-		<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="1"/>
 		<material_group name="txGroupMetal" unlock_level="1"/>
 	</perk>
 	<perk name="paintWallCoverings" icon="paint_brush" description_key="paintGroupDesc" title_key="paintMagazineWallCoverings" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
-		<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="1"/>
 		<material_group name="txGroupWallCovering" unlock_level="1"/>
 	</perk>
 	<perk name="paintWoodAndRoofing" icon="paint_brush" description_key="paintGroupDesc" title_key="paintMagazineWoodAndRoofing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
-		<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
+		<requirement skill_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="1"/>
 		<material_group name="txGroupWood" unlock_level="1"/>
 	</perk>
 
