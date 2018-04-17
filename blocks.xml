@@ -151,7 +151,7 @@ tbnsew:
 	<property name="Mesh" value="terrain"/>
 	<property name="Texture" value="300"/>
 	<property name="DropScale" value="2"/>
-	<drop event="Harvest" name="potassiumNitratePowder" count="200" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="potassiumNitratePowder" count="80" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="potassiumNitratePowder" count="100" prob="0.5" stick_chance="0"/>
 	<property name="CanMobsSpawnOn" value="true"/>
@@ -231,7 +231,7 @@ tbnsew:
 	<property name="Texture" value="316"/>
 	<property name="Weight" value="100"/>
 	<property name="DropScale" value="2"/>
-	<drop event="Harvest" name="scrapLead" count="100" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="scrapLead" count="80" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="scrapLead" count="50" prob="0.5" stick_chance="0"/>
 	<property name="CanMobsSpawnOn" value="true"/>
@@ -488,7 +488,7 @@ tbnsew:
 	<property name="Mesh" value="terrain"/>
 	<property name="Texture" value="34"/>
 	<property name="DropScale" value="2"/>
-	<drop event="Harvest" name="coal" count="100" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="coal" count="80" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="coal" count="50" prob="0.5" stick_chance="0"/>
 	<property name="CanMobsSpawnOn" value="true"/>
